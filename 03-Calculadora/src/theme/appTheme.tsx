@@ -6,14 +6,16 @@ export const styles = StyleSheet.create({
     backgroundColor: 'black',
   },
   calculadoraContainer: {
-    flex: 1,
+    flex: 15,
     justifyContent: 'flex-end',
     paddingHorizontal: 20,
+    paddingTop: 20,
   },
   resultado: {
     color: 'white',
     fontSize: 60,
     textAlign: 'right',
+    marginBottom: 10,
   },
   resultadoPequeno: {
     color: 'rgba(255,255,255,0.5)',
@@ -25,5 +27,17 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     marginBottom: 18,
     paddingHorizontal: 10,
+  },
+  tischlerContainer: {
+    flex: 1,
+    backgroundColor: '#2D2D2D',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 25,
+  },
+  tischler: {
+    color: 'white',
+    fontSize: 20,
+    fontStyle: 'italic',
   },
 });
